@@ -1,0 +1,10 @@
+.container {
+    padding: 10px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #00FFB9, #02DED8);
+    border: none;
+    border-radius: 5px;
+    color: #000028;
+    width: max-content;
+    margin-top: 10px;
+}
