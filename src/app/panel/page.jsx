@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './page.module.css'
-import Image from "next/image";
-import mtp from "public/MTP1900.jpeg"
-import redButton from "public/redButton.png"
-import greenButton from "public/greenButton.png"
+import Image from 'next/image'
+import mtp from 'public/MTP2200.jpeg'
+import greenButton from 'public/greenButton.png'
+import redButton from 'public/redButton.png'
 
 async function getData() {
   const res = await fetch ("http://localhost:3000/api/panels", {
@@ -22,7 +22,7 @@ const Panel = async() => {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
-        <h2 className={styles.title}>MTP1900</h2>
+        <h2 className={styles.title}>MTP2200</h2>
         <div className={styles.imgContainer}>
           <Image
             className={styles.img}
@@ -55,10 +55,9 @@ const Panel = async() => {
             <p className={styles.relay}>HWT Ready</p>
             <Image src={greenButton} className={styles.button} />
           </div>
-
-          <p className={styles.serialInt}>Serial Interface: /dev/ttyUSB0</p>
         </div>
-      </div>  
+        <p className={styles.serialInt}>Serial Interface: /dev/ttyUSB0</p>
+      </div>
     </div>
   )
 }
