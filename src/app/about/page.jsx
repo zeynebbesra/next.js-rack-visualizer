@@ -4,6 +4,11 @@ import Image from 'next/image'
 import AboutHero from 'public/Abouut.jpg'
 import Button from "@/components/Button/Button";
 
+export const metadata = {
+  title: "About of Siemens HMI",
+  description: "This is About Page",
+};
+
 const About = () => {
   return (
     <div className={styles.container}>

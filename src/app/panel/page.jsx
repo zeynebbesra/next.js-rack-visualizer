@@ -5,6 +5,11 @@ import mtp from 'public/MTP2200.jpeg'
 import greenButton from 'public/greenButton.png'
 import redButton from 'public/redButton.png'
 
+export const metadata = {
+  title: "Siemens HMI Panels",
+  description: "This is Panels Page",
+};
+
 async function getData() {
   const res = await fetch ("http://localhost:3000/api/panels", {
     cache: "no-store",
