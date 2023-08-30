@@ -38,8 +38,8 @@ const Navbar = () => {
     <div className={styles.container}>
         <Link href="/" className={styles.logo}>SIEMENS</Link>
         <div className={styles.links}>
-            {links.map((link)=> (
-                <Link key={link.id} href={link.url}>
+            {links.map((link, index)=> (
+                <Link key={index} href={link.url}>
                     {link.title}
                 </Link>
             ))}
