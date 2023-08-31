@@ -38,6 +38,12 @@
     gap: 30px;
 }
 
+.title {
+    background: linear-gradient(to bottom, #00FFB9, #02DED8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .desc{
     font-size: 15px;
     font-weight: 300;

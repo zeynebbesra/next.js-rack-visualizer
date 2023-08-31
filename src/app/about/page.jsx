@@ -25,32 +25,30 @@ const About = () => {
 
       <div className={styles.textContainer}>
         <div className={styles.item}>
-          <h1 className={styles.title}>sdfsdg</h1>
+          <h1 className={styles.title}>What is Siemens HMI ?</h1>
           <p className={styles.desc}>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Ipsa vero voluptatem quia perferendis ducimus recusandae commodi 
-            rerum assumenda necessitatibus porro, nostrum iste quidem nisi aliquid 
-            ut accusamus quod atque voluptas temporibus sunt sed doloremque.
+            Siemens HMI (Human Machine Interface) is an interface technology 
+            for humans to control and monitor industrial automation systems.
+            Siemens HMI products are used to monitor, control and manage industrial processes.
             <br />
             <br /> 
-            Accusantium similique esse enim sed, architecto repudiandae voluptatibus cum! 
-            Voluptas hic vitae delectus nostrum? Deserunt, repudiandae.
+            Our devices are used to increase productivity, reduce production 
+            costs and make operations more efficient.
           </p>
         </div>
         <div className={styles.item}>
-          <h1 className={styles.title}>askdjasşl</h1>
-          <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur, 
-            adipisicing elit. Atque sit tempore eveniet dolor perspiciatis, 
-            inventore quis doloremque dolorem, voluptates iure 
-            voluptas officia labore molestias ullam qui, 
-            repellat tenetur minima nesciunt?
+          <h1 className={styles.title}>Key Features</h1>
+          <p className={styles.desc}>Siemens HMI devices can be used to control 
+            industrial automation systems. This allows you to automate and 
+            manage production processes.
+            Siemens HMIs can be integrated with industrial automation systems and 
+            communicate with different devices. This facilitates data sharing and collaboration.
             <br />
-            <br /> - sadjfahşfhjhjhd
+            <br /> - Industrial Compatibility
             <br />
-            <br /> - sadjfahşfhjhjhd
+            <br /> - Data Monitoring and Analysis
             <br /> 
-            <br /> - sjdfsdjkghsdjkgh
-
+            <br /> - Graphical Interface
           </p>
             <Button url="/contact" text="Contact"/>
         </div>
