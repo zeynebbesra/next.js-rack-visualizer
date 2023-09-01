@@ -19,7 +19,7 @@ const handler = NextAuth({
         await connect()
         
         try {
-          const user = User.findOne({email: credentials.email})
+          const user = await User.findOne({email: credentials.email})
 
           if(user){
             //check password
@@ -37,11 +37,13 @@ const handler = NextAuth({
           }
         } catch (err) {
           throw new Error(err)
-          
         }
       }
     })
   ],
+  pages: {
+    error: "/dashboard/login",
+  }
 })
 
 export {handler as GET, handler as POST}
