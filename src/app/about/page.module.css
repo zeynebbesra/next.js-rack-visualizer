@@ -1,8 +1,8 @@
-.container {
+/* .container {
 
 
 
-}
+} */
 
 .imgContainer {
     width: 100%;
@@ -41,6 +41,7 @@
 .title {
     background: linear-gradient(to bottom, #00FFB9, #02DED8);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
