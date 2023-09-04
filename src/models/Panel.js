@@ -12,6 +12,10 @@ const panelSchema = new Schema (
             type: String,
             required: true,
         },
+        img: {
+            type: String,
+            required: true,
+        },
         imageVersion: {
             type: String,
             required: true,
@@ -45,8 +49,7 @@ const panelSchema = new Schema (
             type: mongoose.Schema.Types.ObjectId,
             ref: 'Rack',
             required: true
-        }
-        
+        },
     },
     { timestamps: true }
     
