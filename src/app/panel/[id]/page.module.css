@@ -1,3 +1,65 @@
-.container {
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px; 
+}
 
+.item {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content:center ;
+    border: 5px solid #009999; /* İstenilen kenarlık rengi ve kalınlığını ayarlayın */
+    border-radius: 7px;
+    padding: 30px; /* İçeriği çerçeve ile ayırmak için dolgu ekler */
+    margin: 20px;
+
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+   
+}
+
+
+.imgContainer {
+    display: grid; /* Grid konteyneri yapar */
+    grid-template-columns: 150px 1fr; /* İmaj için sabit genişlik, açıklama için esnek genişlik */
+    gap: 10px; /* İkisi arasında boşluk bırakır */
+    align-items: center; /* Öğeleri dikey olarak hizalar */
+}
+
+.img{
+    border-radius: 8px;
+}
+
+
+.boolean {
+    display: flex;
+    flex-direction: column; /* Öğeleri dikey olarak hizalar */
+    align-items: center;
+}
+  
+.relayItem {
+    display: flex;
+    align-items: center; /* İçeriği yatayda hizalar */
+    margin-bottom: 5px; /* Her Relay öğesi arasına boşluk ekler */
+}
+
+.relay {
+    margin-right: 10px; /* Relay metinlerini düğmelerden ayırır */
+}
+
+.button {
+    width: 25px; /* Düğme genişliği ayarlayabilirsiniz */
+    height: 25px; /* Düğme yüksekliği ayarlayabilirsiniz */
+    margin-left: 5px; /* Düğme ile metin arasına boşluk ekler */
+}
+
+.serialInt {
+    text-align: center; /* Metni sola hizalar */
 }

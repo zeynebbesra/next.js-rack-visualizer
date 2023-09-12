@@ -1,13 +1,10 @@
-/* .container{
-    
-} */
-
 .title {
     font-size: 35px;
     margin-bottom: 10px;
     text-align: center;
     background: linear-gradient(to bottom, #00FFB9, #02DED8);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 
 }
@@ -56,3 +53,4 @@
     font-weight: bold;
 
 }
+

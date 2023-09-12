@@ -52,10 +52,8 @@ const About = () => {
           </p>
             <Button url="/contact" text="Contact"/>
         </div>
-
       </div>
     </div>
   )
 }
-
 export default About

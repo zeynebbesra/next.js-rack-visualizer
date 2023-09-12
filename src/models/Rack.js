@@ -6,13 +6,8 @@ const rackSchema = new Schema(
     {
         deviceIP: {
             type: String,
-            unique: true,
             required: true,
         },
-        dhcp: {
-            type: Boolean,
-            default: false
-        }
     },
     { timestamps: true }
 )

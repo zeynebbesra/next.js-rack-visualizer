@@ -27,12 +27,9 @@ const Contact = () => {
           <textarea className={styles.textArea} placeholder='message' cols="30" rows="10"></textarea>
           <Button url='#' text="Send"/>
         </form>
-
       </div>
-
-
     </div>
   )
 }
-
 export default Contact
+
